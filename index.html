@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="searchContainer">
+        <input type="text" placeholder="City Name or Zipcode" id="searchInput">
+    <button     class="searchControl" id="searchBtn">Search</button>
+    </div>
+    <div id="weatherContainer">
+        <div id="weatherDescript">
+            <h1 id="cityHeader"></h1>
+            <div id="weatherMain">
+                <div id="temp"></div>
+                <div id="weatherDescriptionHeader"></div>
+                <div ><img id="Slika" alt=""></div>
+            </div>
+            <hr>
+            <div id="windSpeed" class="bottomDetails"></div>
+            <div id="humidity"  class="bottomDetails"></div>
+            <a   href="#idi">   <div class="more" > See next 5 days</div></a>
+        </div>
+    </div>
+    
+    <section id="idi" class="forecast">
+        <div id="next"></div>
+        <div id="frcw">
+        </div>
+      </section>
+   
+    
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+body{
+
+   background-image: url(nebo.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+
+   color: white;
+   text-shadow:2px 2px 1px black ;
+   font-family: sans-serif;
+}
+#weatherContainer{
+   background-color: rgb(0,0,0,0.25);
+   box-shadow: 1px 1px 5px black;
+   padding: 50px;
+   border-radius: 10px;
+   position: absolute;
+
+   visibility: hidden;
+}
+#weatherContainer h1{
+margin: 5px;
+font-size: 42px;
+font-family: sans-serif;
+}
+#searchContainer{
+   padding: 15px;
+   position: absolute;
+   top:0;
+   right:0;
+
+
+}
+#searchContainer input{
+   width: 200px;
+   border-radius: 5px;
+   padding: 5px;
+}
+#searchContainer button{
+  background-color: rgba(1,159,198);
+  width:75px;
+}
+.searchControl{
+
+   box-shadow: 2px 2px 5px black;
+   border: none;
+   border-radius: 5px;
+   padding: 5px;
+}
+#weatherMain{
+   display: block;
+   margin-bottom: 20px;
+}
+#weatherMain div{
+   display: inline-block;
+
+}
+#weatherDescriptionHeader{
+   font-size: 28px;
+   vertical-align: 50%;
+
+}
+#temp{
+   font-size: 36px;
+   vertical-align: 25%;
+
+}
+.bottomDetails{
+   display: block;
+   font-size: 24px;
+   text-align: right;
+
+}
+hr{
+   margin-bottom: 20px;
+}
+a{
+   text-decoration: none;
+}
+.more {
+ 
+   font-family:  sans-serif;
+   border: solid 3px #fff;
+   border-radius: 9px;
+   color:white;
+   font-size: 20px;
+   width: 80%;
+   
+   padding: 7px 20px;
+   cursor: pointer;
+  
+ }
+  
+
+  
+ .forecast {
+    position: absolute;
+    top:100%;
+    left:0%;
+   height: 100%;
+   width: 100%;
+   margin: auto;
+   background: lightgray;
+   background-position: center;
+   background-size: cover;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+ }
+  
+ #frcw {
+   
+   background-color: gray;
+   width:90%;
+   border-radius: 5px;
+   padding: 10px 10px;
+   margin-bottom: 50px;
+   margin-top: 50px;
+ }
+
+ #frcw td {
+   padding-left: 7px;
+   padding-right: 7px;
+  
+   width: 10%;
+   height: 30px;
+   
+   border: solid lightgray 0.1px;
+   text-align: center;
+ }
+ #frcw thead {
+  
+   background-color:black;
+   border-top-left-radius: 9px;
+ }
+  
+  
